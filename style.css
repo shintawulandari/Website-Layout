@@ -1,13 +1,89 @@
-h1 {
-  text-align: center;
-  font-size: 24px;
-}
-
-ul {
+.header
+{
+  position: relative;
+  z-index: 5!important;
+  font-weight: 600;
   display: block;
 }
-
-li {
-  margin: 0 15px;
-  display: inline;
+body
+{
+  box-sizing:border-box;
+  color:rgb(72, 72, 72);
+  display:block;
+  font-family: Circular, -apple-system, system-ui, Roboto, "Helvetica Neue", sans-serif;
+  font-size:14px;
+  line-height: 1.43;
+}
+.header__logo
+{
+  display: table-cell;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  padding-left: 24px;
+  padding-right: 24px;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.header__act-logo
+{
+    color: #FF5A5F;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 34px;
+}
+.header__searchbar
+{
+  display: table-cell;
+  width: 460px;
+  vertical-align: middle;
+  display: table-cell;
+  vertical-align: middle;
+  background-color: #ffffff;
+  border: 1px solid #EBEBEB;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  height: 48px;
+  font-family: Circular, -apple-system, system-ui, Roboto, "Helvetica Neue", sans-serif;
+  font-size:14px;
+  line-height:20.02px;
+  text-size-adjust:100%;
+}
+.search-icon
+{
+  padding-top: 5px !important;
+  padding-left: 18px !important;
+  padding-right: 10px !important;
+  width: 39px !important;
+  display: table-cell !important;
+  height: 100% !important;
+  vertical-align: middle !important;
+  overflow: hidden;
+}
+.search-bar
+{
+  display: table-cell !important;
+  height: 100% !important;
+  vertical-align: middle !important;
+  width: 100% !important;
+}
+.input-box
+{
+  background-color: transparent !important;
+  border: none!important;
+  margin: 5px 5px 0px 8px!important;
+  padding: 0px !important;
+  width: 80% !important;
+  text-overflow: ellipsis !important;
+  font-weight: 800 !important;
+  font-size: 17px !important;
+  color: #484848!important;
+  cursor: text;
+  display: block;
+  font-size: 17px;
+  font-weight: 800;
+}
+.input-box:focus
+{
+  outline-color: white;
 }
