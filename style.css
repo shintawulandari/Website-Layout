@@ -87,3 +87,26 @@ body
 {
   outline-color: white;
 }
+.header__button
+{
+  display: table-cell !important;
+  vertical-align: middle !important;
+  -webkit-appearance: none !important;
+    color: inherit !important;
+    display: inline-block !important;
+    height: 64px !important;
+    line-height: 64px !important;
+    position: relative !important;
+    white-space: nowrap !important;
+    background: transparent !important;
+    border-width: initial !important;
+    border-style: none !important;
+    border-color: initial !important;
+    border-image: initial !important;
+    text-decoration: none !important;
+    margin: 0px !important;
+    padding: 0px 8px !important;
+    transition: color 0.25s ease 0s !important;
+}
+
+}
